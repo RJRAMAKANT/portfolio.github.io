@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RJ PORTFOLIO</title>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/portfolio.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+<style type="text/css">
+body{
+background:url(images/SOLIDBLUE.png);
+}
+.front1{
+    background: url(images/shopper.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.front2{
+    background: url(images/online\ bookstore.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.front3{
+    background: url(images/MULTICALC.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.front4{
+    background: url(images/port.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.front{
+    background: url(images/academia.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+</style>
+
+</head>
+<body>
+
+ <header class="head " id="home">
+        <div class="navhead">
+            <div><span id="name">RG </span> PORTFOLIO. </div>
+            <i class='bx bx-menu' id="menu-icon" onclick="click"></i>
+            <div class="list">
+                <UL class="unli" id="topn">
+                    <LI ><a href="#home" class="active">HOME</a></LI>
+                    <li ><a href="#about">ABOUT ME</a></li>
+                    <LI ><a href="#skills">SKILLS</a></LI>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li ><a href="#contact">CONTACT</a></li>
+                   
+                </UL>
+
+            </div>
+         
+        
+        </div>
+        <div class="head1 ">
+            <div class="self ">
+                Hello, I am <span id="nm">RAMAKANTA GAHAN</span>
+                <div>And I am  a PASSIONATE</div>
+                <div><span id="element" style="color: rgb(245, 136, 12);"></span></div>
+
+                <div class="btn">
+                    <a href="cv.html" target="_blank"><button>RESUME</button></a>
+                    <a href="#contact"><button>HIRE ME</button></a>
+                </div>
+                <div class="social mt-3">
+                  <a href="https://instagram.com/_rj_ramakant?igshid=ZDc4ODBmNjlmNQ=="> <span class="fa fa-instagram"></span></a>
+                  <a href="https://www.linkedin.com/in/ramakanta-gahan-ba8852215/"><span class="fa fa-linkedin"></span></a>
+                  <a href="https://www.youtube.com/channel/UCISRQkZsLv6ruq6ZrDnsM7Q"> <span class="fa fa-youtube"></span></a>
+                </div>
+             
+            </div>
+            <div class="image">
+                <img src="images/bgrmv1.png" height="350px" width="350px" style="border-radius: 50px;"data-aos="fade-left"data-aos-duration="3000">
+            </div>
+
+        </div>
+        
+        
+        
+
+    </header>
+    <section id="about" >
+        <div class="section1" >
+            <div class="xxximg">
+                <img src="images/rj-removebg-preview.png"data-aos="fade-right" data-aos-duration="3000">
+
+            </div>
+            <div class="details">
+                <div class="aboutme ">ABOUT ME</div>
+                <div class="jfd mt-2">JAVA FULLSTACK DEVELOPER</div>
+                <div class="ppp mt-3"><p>A detail oriented and multitasking professional with exceptional coding techniques 
+                    having Master in Computer Application(MCA) degree in computer science technology.
+                     To be a brilliant performer in applying my skill sets,to achive the short term and long term goals that has been put into a good industry.
+                </p></div>
+                <div class="tab-titles" >
+                    <p class="tab-links active-link" onclick="opentab('skills')" >HOBBIES</p>
+                    <P class="tab-links"onclick="opentab('education')"id="s1">EDUCATION</P>
+                    <P class="tab-links"onclick="opentab('strength')"id="s1">PERSONAL</P>
+
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                      <li><span>CODING</span><br> </li>
+                        <li><span>READING</span><br> </li>
+                        <li><span>TRAVELLING</span><br> </li>
+                        <li><span>BLOGING</span><br></li>
+                        <li><span>WRITTIING</span><br> </li>
+                        <li><span>GAMMING</span><br> </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>2020-2022</span><br>MCA at CIME,BHUBANESWAR</li>
+                        <li><span>2019</span><br>BSC at F.M UNIVERSITY,BALASORE</li>
+                        <li><span>2016</span><br>CHSE at KHAIRA COLLEGE ,BALASORE</li>
+                        <li><span>2014</span><br>HSE(ODISHA) at KAMARPAL HISH SCHOOL ,BALASORE</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="strength">
+                    <ul>
+                        <li><span>DOB</span><br>03-APRIL-1999</li>
+                        <li><span>FATHER'S NAME</span><br>RABINDRA GAHAN</li>
+                        <li><span>MOTHERS NAME</span><br>JAYANTI GAHAN</li>
+                        <li><span>STATE</span><br>ODISHA</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section >
+        <div class="container" id="skills" >
+            <div class="skl"data-aos="fade-right" data-aos-duration="2000" >
+                <div class="ts-head "><span id="ts"data-aos="fade-up">TECHNICAL</span> SKILLS</div>
+                <div class="corej ">CORE JAVA(java SE)</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+                  </div>
+                  <div>ADVANCE JAVA(Java EE)</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                  <div>SPRING(ongoing)</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <div>HTML & CSS & BOOTSTRAP</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                  <div>JAVA SCRIPT</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <div>SQL & PL/SQL</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <div>MY SQL</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                  <div>ECLIPSE IDE</div>
+                <div class="progress ">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+
+
+            </div>
+            <div class="skl"data-aos="fade-left" data-aos-duration="2000">
+                <div class="ts-head "><span id="ts"data-aos="fade-up">PROFESIONAL</span> SKILLS</div>
+                <div class="ps">PROBLEM SOLVING</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+                  </div>
+                  <div>CRITICAL THINKING</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                  <div>COMMUNICATION</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <div>TIME MANAGEMENT</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                  <div>ANALYTICAL SKILLS</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                  <div>TEAM WORK</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+                  <div>CREATIVE THINKING</div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                  <div>SELF MOTIVATION</div>
+                <div class="progress " >
+                    <div class="progress-bar" role="progressbar" style="width: 100%; " aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+
+
+
+            </div>
+
+        </div>
+           <div class="projects">
+          <div class="pj"data-aos="fade-down" data-aos-duration="1500" id="project">PROJECTS</div>
+
+          <div class="cardcontainer">
+           <a href="https://rjramakant.github.io/ELearing.github.io/Academia.html" target="_blank"> <div class="card"data-aos="zoom-in-down" data-aos-duration="2500">
+              <div class="card-inner">
+                <div class="front"></div>
+                <div class="back">
+                  <h1>Academia</h1>
+                  <p>Its an E-learing Academia Template.i used html,css,js and bootstrap in this project.</p>
+                  <div class="link">https://rjramakant.github.io/ELearing.github.io/Academia.html</div>
+                  <div class="sticker"><i class="fa fa-github" aria-hidden="true"></i></div>
+                  
+                </div>
+              </div>
+
+            </div></a>
+
+
+            
+            <a href="https://rjramakant.github.io/OnlineBuy.github.io/Shopper-Template.html" target="_blank"> <div class="card"data-aos="zoom-in-down" data-aos-duration="2500">
+              <div class="card-inner">
+                <div class="front1"></div>
+                <div class="back">
+                  <h1>BUY IT</h1>
+                  <p>Its an Online Shopping Website Template.i used html,css,js and bootstrap in this project.</p>
+                  <div class="link">https://rjramakant.github.io/OnlineBuy.github.io/Shopper-Template.html</div>
+                  <div class="sticker"><i class="fa fa-github" aria-hidden="true"></i></div>
+                  
+                </div>
+              </div>
+
+            </div></a>
+
+
+            <a href="https://rjramakant.github.io/ELearing.github.io/Academia.html" target="_blank"> <div class="card"data-aos="zoom-in-down" data-aos-duration="2500">
+              <div class="card-inner">
+                <div class="front2"></div>
+                <div class="back">
+                  <h1>Online BookStore</h1>
+                  <p>Its an Online Book Shooping Website.Html,css,js,Java,Mysql,jsp and servlet is used in this project.</p>
+                  <div class="link">https://rjramakant.github.io/ELearing.github.io/Academia.html</div>
+                  <div class="sticker"><i class="fa fa-github" aria-hidden="true"></i></div>
+                  
+                </div>
+              </div>
+
+            </div></a>
+
+
+            
+
+            </div>
+
+            
+
+            <div class="cardcontainer">
+              <a href="https://rjramakant.github.io/Multicalculator.github.io/Guess.html" target="_blank"> <div class="card"data-aos="zoom-in-down" data-aos-duration="2500">
+                 <div class="card-inner">
+                   <div class="front3"></div>
+                   <div class="back">
+                     <h1>MLTI-CALCULATOR</h1>
+                     <p>Its an WEbAppliaction have multiple calculator to use.User can use this only one app to calculate several thing.Html,css,js is used in this project.</p>
+                     <div class="link">https://rjramakant.github.io/Multicalculator.github.io/Guess.html</div>
+                     <div class="sticker"><i class="fa fa-github" aria-hidden="true"></i></div>
+                     
+                   </div>
+                 </div>
+   
+               </div></a>
+   
+   
+               
+               <a href="#" target="_blank"> <div class="card"data-aos="zoom-in-down" data-aos-duration="2500">
+                 <div class="card-inner">
+                   <div class="front4"></div>
+                   <div class="back">
+                     <h1>PORTFOLIO</h1>
+                     <p>I Created My Own Portfolio using HTNL,CSS,BOOTSTARP,JS,JAVA,SQL  Where I can Show my Abilities.</p>
+                     <div class="link">https://rjramakant.github.io/Portfolio.github.io/Portfolio.html</div>
+                     <div class="sticker"><i class="fa fa-github" aria-hidden="true"></i></div>
+                     
+                   </div>
+                 </div>
+   
+               </div></a>
+   
+   
+               <a href="https://rjramakant.github.io/ELearing.github.io/Academia.html" target="_blank"> <div class="card"data-aos="zoom-in-down" data-aos-duration="2500">
+                 <div class="card-inner">
+                   <div class="front2"></div>
+                   <div class="back">
+                     <h1>Online BookStore</h1>
+                     <p>Its an Online Book Shooping Website.Html,css,js,Java,Mysql,jsp and servlet is used in this project.</p>
+                     <div class="link">https://rjramakant.github.io/ELearing.github.io/Academia.html</div>
+                     <div class="sticker"><i class="fa fa-github" aria-hidden="true"></i></div>
+                     
+                   </div>
+                 </div>
+   
+               </div></a>
+   
+   
+               
+   
+               </div>
+
+
+
+
+
+          </div>
+           </div>
+           <div class="footer">
+            <form class="message" action="port" method="post" id="contact" data-aos="flip-left" data-aos-duration="3000" data-aos-easing="ease-out-cubic">
+              <div class="ctme">CONTACT ME</div>
+              
+              <div class="label"><label>YOUR NAME</label></div>
+                <div><input type="text" name="unaame" placeholder="Enter Your Name"></div>
+                <div class="label"><label>EMAIL ID</label></div>
+                <div><input type="text" name="maail" placeholder="Enter EMAIL"></div>
+                <div class="label"><label>SUBJECT</label></div>
+                <div><input type="text" name="suub" placeholder="Enter SUBJECT"></div>
+                <div class="label"><label>MESSAGE</label></div>
+                <div><input type="text" name="mees" placeholder="Enter Message"></div>
+                <div class="dmail">
+                  <div class="smail" onclick="clicked()"><input type="submit" value="SEND"></div>
+                  <a href="mailto:ramakantagahan1999@gmai.com"><div class="rmail"> MAIL</a>
+                  </div>
+                </div>
+
+
+            </form>
+           </div>
+
+
+
+          
+          <div class="copyeright">Copyright ©2023 All rights reserved | This Portfolio is made by @RJ RAMAKANT</div>
+
+
+        
+    </section>
+
+
+
+
+
+
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['JAVA SE DEVELOPER,','JAVA WEB DEVELOPER,','JAVA FULLSTACK DEVELOPER.'],
+          typeSpeed: 50,
+          
+        });
+
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontent=document.getElementsByClassName("tab-content");
+
+      function opentab(tabname)
+      {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontents of tabcontent){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+      }
+
+      </script>
+
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init();
+
+         function click()
+         {
+          var x=document.getElementsByid("topn");
+          if(x.ClassName==="topn")
+          {
+            x.className +="responsive";
+          }
+          else{
+            x.ClassName="topn";
+          }
+         }
+
+
+       function clicked()
+       {
+    	   swal("THANK YOU","I will Get Back to You");
+       }
+             
+   
+
+
+       </script>
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+
+
+
+</body>
+</html>
